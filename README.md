@@ -1,2 +1,4 @@
-# Exercism
-Exercism.io exercises
+# Exercism.io Challenges
+
+Repository of Exercism.io coding challenges
+
