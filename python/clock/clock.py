@@ -5,12 +5,18 @@
 # github.com/marnovo/Exercism
 #
 
-class Clock(object):
-   
-    def __init__(self, hours, minutes):
-        self.hours = hours
-        self.minutes = minutes
+import math
 
-    def add(self, minutes):
-        self.minutes = self.minutes + minutes
-        return #check what to return, if string or not
+
+class Clock(object):
+
+    HOURS_IN_DAY = 24
+    MINS_IN_HOUR = 60
+
+    def __init__(self, hours=0, minutes=0):
+        self.hours = hours % Clock.HOURS_IN_DAY
+        self.minutes = minutes % Clock.MINS_IN_HOUR
+        self.hours = self.hours + math.trunc(minutes / Clock.MINS_IN_HOUR)
+
+    def __repr__(self):
+        return f"{self.hours:02}:{self.minutes:02}"
