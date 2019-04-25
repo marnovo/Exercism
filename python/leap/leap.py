@@ -1,7 +1,7 @@
 #
 # Exercism.io
 # Python track
-# Problem #2 - Leap year
+# Problem #2 (old track) - Leap year
 # github.com/marnovo/Exercism
 #
 

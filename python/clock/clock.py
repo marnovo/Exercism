@@ -1,7 +1,7 @@
 #
 # Exercism.io
 # Python track
-# Problem #3 - Clock
+# Problem #2 (#2 in old track) - Clock
 # github.com/marnovo/Exercism
 #
 
